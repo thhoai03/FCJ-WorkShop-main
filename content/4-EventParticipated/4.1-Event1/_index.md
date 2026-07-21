@@ -30,5 +30,4 @@ The first meeting gave me a very warm and close feeling. Unlike the stress of da
 
 I was particularly impressed with the sharing about the working culture at AWS, effective time management, and the spirit of self-learning. The event helped me better understand my personal development path and have a clearer direction for the upcoming internship period. The spiritual values and connections from this meeting are a wonderful start to my internship journey.
 
-
 ![Event 1](/images/4-EventParticipated/event1.jpg)
