@@ -53,3 +53,5 @@ pre: " <b> 4.2. </b> "
 The second event took place in June and was an extremely exciting and vibrant meeting. Interns were divided into multiple teams to compete against each other, answering multiple-choice questions and handling situations related to system architecture on AWS.
 
 The experience of participating in the competition helped me realize the knowledge gaps that need to be filled, and at the same time, I learned a lot from the problem-solving mindset of other teams. The time pressure in the competition was also a good exercise for me to practice calmness and quick decision-making skills. This is a memorable experience, giving me more confidence when applying AWS knowledge to real projects.
+
+![Event 2](event2.JPG)

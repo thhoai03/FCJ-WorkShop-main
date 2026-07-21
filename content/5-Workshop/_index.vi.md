@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Workshop"
 date: 2026-07-21
 weight: 5
@@ -17,7 +17,7 @@ ChĂ o má»«ng báº¡n Ä‘áº¿n vá»›i tĂ i liá»‡u hÆ°á»›
 
 ### Video Hoáº¡t Ä‘á»™ng Demo
 <!-- Vui lòng tải video DemoNhomHMN.mp4 của bạn lên YouTube (Chế độ Không công khai) và thay thế YOUR_YOUTUBE_VIDEO_ID bên dưới bằng ID video thực tế -->
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/E0BoPDcxsTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Trong workshop nĂ y, chĂºng ta sáº½ Ä‘i tá»«ng bÆ°á»›c Ä‘á»ƒ triá»ƒn khai toĂ n bá»™ há»‡ thá»‘ng Serverless Backend báº±ng AWS SAM (Serverless Application Model), thiáº¿t láº­p dá»¯ liá»‡u ban Ä‘áº§u vĂ  káº¿t ná»‘i vá»›i Frontend ReactJS.
 
