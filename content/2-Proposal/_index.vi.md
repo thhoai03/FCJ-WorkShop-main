@@ -22,7 +22,7 @@ Các thành phần chính được tổ chức thành **4 lớp**: Frontend (Edg
 
 ### 2. Sơ Đồ Kiến Trúc Hệ Thống
 
-![Sơ đồ Kiến trúc HMN Bakery](/images/sodokientruc.png)
+![Sơ đồ Kiến trúc HMN Bakery](/images/2-Proposal/sodokientruc.png)
 
 ---
 
