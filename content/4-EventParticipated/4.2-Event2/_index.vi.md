@@ -31,3 +31,5 @@ Sự kiện thứ hai diễn ra vào tháng 6 và là một buổi gặp mặt c
 Trải nghiệm tham gia cuộc thi đã giúp tôi nhận ra những lỗ hổng kiến thức cần được bổ sung, và đồng thời, tôi học hỏi được rất nhiều từ tư duy giải quyết vấn đề của các đội khác. Áp lực thời gian trong cuộc thi cũng là một bài tập tốt để tôi rèn luyện sự bình tĩnh và kỹ năng ra quyết định nhanh chóng. Đây là một trải nghiệm đáng nhớ, mang lại cho tôi thêm sự tự tin khi áp dụng kiến thức AWS vào các dự án thực tế.
 
 ![Event 2](event2.JPG)
+
+![S? ki?n 2](event2.jpg)
