@@ -1,6 +1,6 @@
 baseURL = "https://thhoai03.github.io/FCJ-WorkShop-main/"
 relativeURLs = false
-canonifyURLs = false
+canonifyURLs = true
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
