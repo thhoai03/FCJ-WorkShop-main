@@ -31,11 +31,11 @@ sam deploy --guided
 
 During execution, AWS SAM will ask you some questions to configure the system. Enter information similar to the following:
 
-* **Stack name**: `hmn-bakery`
-* **AWS Region**: `ap-southeast-1` (or your preferred region)
-* **Parameter AdminEmail**: Enter your personal email. This email will be used to receive notifications from Amazon SNS whenever a customer places a new order. *(Note: After deployment, you must open your email and click **Confirm subscription** in the email from AWS)*.
-* **Parameter SesSender**: Enter the email address you verified in the Amazon SES service. This email acts as the sender for confirmation emails to customers.
-* **Parameter AllowedOrigin**: Enter `*` when developing in a dev environment, or enter the exact frontend domain name (e.g., `https://hmnbakery.com`) when running in production.
+* **Stack name**: `cakeshop`
+* **AWS Region**: `ap-southeast-2` 
+* **Parameter AdminEmail**: nhanmai.22072019@gmail.com
+* **Parameter SesSender**: nhanmai.22072019@gmail.com
+* **Parameter AllowedOrigin**: `*`
 * **Confirm changes before deployment**: `y` (to review the list of resources before creation).
 * **Allow SAM CLI IAM role creation**: **Y** (allow SAM to automatically create required security roles).
 * **Save arguments to configuration file**: `Y` (save the configuration to the `samconfig.toml` file for future deployments).
@@ -46,7 +46,7 @@ The deployment process may take 3-5 minutes. Once successfully completed, the te
 
 Carefully copy and save the following values, as we will use them in the next steps to configure the Frontend and load data:
 
-1. `ApiUrl`: The API Gateway URL (e.g., `https://xxx.execute-api.ap-southeast-1.amazonaws.com/Prod/`)
-2. `UserPoolId`: The Cognito User Pool ID.
-3. `UserPoolClientId`: The Cognito Client access ID.
-4. `ImagesBucketName`: The S3 bucket name storing product images.
+1. `ApiUrl`: https://ux5v5f7ec5.execute-api.ap-southeast-2.amazonaws.com/dev
+2. `UserPoolId`: ap-southeast-2_dpwns0mJd
+3. `UserPoolClientId`: 343p8l05p2u2bnodb206m7pa7h
+4. `ImagesBucketName`: hmn-bakery-images-131292876211-dev

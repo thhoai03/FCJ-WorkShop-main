@@ -9,18 +9,7 @@ pre: " <b> 5.5. </b> "
 
 Once the Backend is ready, the next step is to configure the Frontend so the React application knows how to call the APIs on AWS.
 
----
-title: "Connect Frontend"
-date: 2026-07-21
-weight: 5
-chapter: false
-pre: " <b> 5.5. </b> "
----
-#5. Connect React Frontend with Serverless Backend
 
-Once the Backend is ready, the next step is to configure the Frontend so the React application knows how to call the APIs on AWS.
-
----
 
 ### Step 1: Declare environment variables
 
