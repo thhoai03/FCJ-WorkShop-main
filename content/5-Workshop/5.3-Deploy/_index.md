@@ -4,7 +4,8 @@ date: 2026-07-21
 weight: 3
 chapter: false
 pre: " <b> 5.3. </b> "
----#3. Deploy Backend with AWS SAM
+---
+#3. Deploy Backend with AWS SAM
 
 After completing the tool installation in the previous step, we will use AWS SAM to deploy the entire backend infrastructure of HMN Bakery to AWS. This process will automatically create API Gateway, Lambda, DynamoDB, Cognito, S3, and configure IAM Roles.
 

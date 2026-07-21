@@ -4,7 +4,8 @@ date: 2026-04-28
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
----### Week 2 Objectives:
+---
+### Week 2 Objectives:
 
 * Set up system authorization security policies and deploy a Frontend source code storage space for the cake ordering website.
 

@@ -3,7 +3,8 @@ Title: "Báo cáo thực tập"
 ngày: 2026-04-05
 trọng lượng: 1
 chương: sai
----# Báo cáo thực tập
+---
+# Báo cáo thực tập
 
 ###Thông tin học sinh:
 &emsp; **Họ và tên:** Nguyễn Thanh Hoài

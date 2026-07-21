@@ -4,7 +4,8 @@ date: 2026-07-21
 weight: 1
 chapter: false
 pre: " <b> 5.1. </b> "
----# 1. Architecture & API Overview
+---
+# 1. Architecture & API Overview
 
 The backend for the HMN bakery website is deployed using **AWS SAM**. The entire architecture operates on a serverless model: `API Gateway → Lambda → DynamoDB`, utilizing authentication via `Cognito` and sending notifications through `SNS/SES`.
 
@@ -18,6 +19,7 @@ Below is the routing table for the APIs in the system:
 |---|---|---|---|---|
 | **Auth** | POST | `/auth/register` | Public | Account registration + send OTP |
 | **Auth** | POST | `/auth/verify-otp` | Public | Verify OTP code |
+| **Auth** | POST | `/auth/resend-otp` | Public | Resend OTP code |
 | **Auth** | POST | `/auth/login` | Public | Login and receive JWT token |
 | **Auth** | POST | `/auth/forgot-password` | Public | Send password recovery code |
 | **Auth** | POST | `/auth/reset-password` | Public | Set a new password |
@@ -27,6 +29,7 @@ Below is the routing table for the APIs in the system:
 | **Product** | PUT | `/products/{id}` | **Admin** | Edit product information |
 | **Product** | DELETE | `/products/{id}` | **Admin** | Delete a product |
 | **Order** | POST | `/orders` | Public | Place an order (triggers SNS + SES) |
+| **Order** | GET | `/orders/my` | **User** | View own order history |
 | **Order** | GET | `/orders` | **Admin** | View all orders list |
 | **Order** | PUT | `/orders/{id}/status` | **Admin** | Update order status |
 | **User** | GET | `/users` | **Admin** | Get user list from Cognito |

@@ -1,10 +1,11 @@
 ---
-title: "Week 9 - FinVantage Project Architecture Design, Configuring Amazon SNS Alerts and CloudWatch"
+title: "Week 9 - HMN Bakery Project Architecture Design, Configuring Amazon SNS Alerts and CloudWatch"
 date: 2026-06-22
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
----### Week 9 Objectives:
+---
+### Week 9 Objectives:
 
 * Translate all theoretical analysis results into a comprehensive architecture diagram, and publish the technical explanatory document for the project.
 

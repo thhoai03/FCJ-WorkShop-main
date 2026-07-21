@@ -4,7 +4,19 @@ date: 2026-07-21
 weight: 5
 chapter: false
 pre: " <b> 5.5. </b> "
----#5. Connect React Frontend with Serverless Backend
+---
+#5. Connect React Frontend with Serverless Backend
+
+Once the Backend is ready, the next step is to configure the Frontend so the React application knows how to call the APIs on AWS.
+
+---
+title: "Connect Frontend"
+date: 2026-07-21
+weight: 5
+chapter: false
+pre: " <b> 5.5. </b> "
+---
+#5. Connect React Frontend with Serverless Backend
 
 Once the Backend is ready, the next step is to configure the Frontend so the React application knows how to call the APIs on AWS.
 
@@ -14,10 +26,11 @@ Once the Backend is ready, the next step is to configure the Frontend so the Rea
 
 Open the `cake-shop-frontend` directory, find (or create a new) file named `.env` in the frontend root directory.
 
-Add the following environment variable to the `.env` file, replacing the value `<ApiUrl from Outputs>` with the actual API Gateway URL you received after deploying the backend:
+Add the following environment variables to the `.env` file, replacing the values `<ApiUrl from Outputs>` and `<UserPoolClientId>` with the actual information you received after deploying the backend:
 
 ```env
 VITE_API_URL=https://<api-id>.execute-api.ap-southeast-1.amazonaws.com/Prod/
+VITE_COGNITO_CLIENT_ID=<UserPoolClientId>
 ```
 
 ### Step 2: Integrate API and Auth (Processing flow)
@@ -45,7 +58,7 @@ The Frontend needs to be programmed to interact with the Backend safely and corr
 
 ---
 
-### Step 3: Run the application
+### Step 3: Run the application locally
 
 After finishing the `.env` configuration, open a terminal in the `cake-shop-frontend` directory and start the development server:
 
@@ -55,3 +68,29 @@ npm run dev
 ```
 
 Now you can access `http://localhost:5173` in your browser. The React Frontend will display real data retrieved from DynamoDB via API Gateway, completing the HMN Bakery Online Cake Ordering system!
+
+---
+
+### Step 4: Deploy Frontend to Production (S3 + CloudFront)
+
+To make the website accessible globally with high performance and security (WAF), we must build and deploy it to the S3 bucket configured for CloudFront:
+
+1. **Build the production bundle:**
+   ```bash
+   npm run build
+   ```
+   This will generate a `dist/` folder containing the optimized static assets.
+
+2. **Sync the build to the S3 Bucket:**
+   Replace `<your-frontend-s3-bucket-name>` with the name of the S3 bucket you created for the frontend.
+   ```bash
+   aws s3 sync dist/ s3://<your-frontend-s3-bucket-name> --delete
+   ```
+
+3. **Invalidate CloudFront Cache:**
+   To ensure users see the newest version immediately, create an invalidation (replace `<DistributionId>`):
+   ```bash
+   aws cloudfront create-invalidation --distribution-id <DistributionId> --paths "/*"
+   ```
+
+Your HMN Bakery production frontend is now live via your CloudFront domain!

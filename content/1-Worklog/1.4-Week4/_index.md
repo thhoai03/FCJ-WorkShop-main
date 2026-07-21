@@ -4,7 +4,8 @@ date: 2026-05-12
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
----### Week 4 Objectives:
+---
+### Week 4 Objectives:
 
 * Build a Backend logic processing platform for the cake ordering feature and set up a secure API connection gateway.
 

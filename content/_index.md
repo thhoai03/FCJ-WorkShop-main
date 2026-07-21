@@ -3,7 +3,8 @@ title: "Internship Report"
 date: 2026-04-05
 weight: 1
 chapter: false
----# Internship Report
+---
+# Internship Report
 
 ### Student Information:
 &emsp; **Full Name:** Nguyen Thanh Hoai

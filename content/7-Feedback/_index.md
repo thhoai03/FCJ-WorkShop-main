@@ -4,7 +4,8 @@ date: 2026-07-21
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
----# Program Feedback and Suggestions
+---
+# Program Feedback and Suggestions
 
 Wrapping up the 3-month internship, I want to send my sincere thanks to the organizing committee, admin, and companions in the program. Below are some personal thoughts and small contributions from me to help the program become even better.
 

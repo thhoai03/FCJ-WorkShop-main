@@ -1,5 +1,5 @@
 ---
-title: "Tuần 11 -  Triển khai hệ thống lên cơ sở hạ tầng AWS, cấu hình bảo mật vai trò IAM và kiểm thử đầu cuối."
+title: "Tuần 11 - Triển khai Backend: Kiến trúc Serverless với AWS SAM"
 date: 2026-07-06
 weight: 11
 chapter: false

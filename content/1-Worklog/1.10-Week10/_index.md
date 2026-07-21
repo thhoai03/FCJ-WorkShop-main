@@ -1,10 +1,11 @@
 ---
-title: "Week 10 - Implementing Serverless Backend Source Code and Integrating Services via AWS SDK"
+title: "Week 10 - Frontend Development: React 19, S3, CloudFront, WAF & Route 53"
 date: 2026-06-29
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
----### Week 10 Objectives:
+---
+### Week 10 Objectives:
 
 * Begin the realization phase of the project on a real Cloud environment, successfully configure and run a secure web interface via CDN.
 

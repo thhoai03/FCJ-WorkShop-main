@@ -4,7 +4,8 @@ date: 2026-07-21
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
----# Internship Self-Evaluation
+---
+# Internship Self-Evaluation
 
 After 12 weeks of commitment to the internship program and directly developing the HMN Bakery project, I would like to self-evaluate what I have achieved, as well as the anticipation that need to be continuously improved.
 

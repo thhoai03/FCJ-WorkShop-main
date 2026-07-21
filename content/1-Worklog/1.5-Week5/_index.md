@@ -1,10 +1,11 @@
 ---
-title: "Week 5 - Establishing a Secure Custom Virtual Network Architecture with Amazon VPCWorklog"
+title: "Week 5 - Establishing a Secure Custom Virtual Network Architecture with Amazon VPC"
 date: 2026-05-18
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
----### Week 5 Objectives:
+---
+### Week 5 Objectives:
 
 * Design a high-speed access storage repository for order information and deploy an encryption solution for sensitive customer data.
 

@@ -4,7 +4,8 @@ date: 2026-06-09
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
----### Week 8 Objectives:
+---
+### Week 8 Objectives:
 
 * Complete the logical mind map of the Backend background data processing flow and map the processing steps into a closed loop process.
 

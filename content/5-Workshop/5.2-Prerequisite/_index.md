@@ -4,7 +4,8 @@ date: 2026-07-21
 weight: 2
 chapter: false
 pre: " <b> 5.2. </b> "
----# 2. Prerequisite Requirements
+---
+# 2. Prerequisite Requirements
 
 To automatically build and deploy the HMN Bakery backend system to AWS, you need to pre-install and configure the tools below on your personal computer.
 

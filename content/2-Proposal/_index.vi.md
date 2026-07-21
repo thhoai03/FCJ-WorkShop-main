@@ -4,7 +4,8 @@ date: 2026-05-04
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
----# HMN Bakery — Website Đặt Bánh Trực Tuyến
+---
+# HMN Bakery — Website Đặt Bánh Trực Tuyến
 
 ## Giải Pháp Serverless Toàn Diện Trên AWS Cho Hệ Thống Đặt Bánh Thông Minh
 
@@ -53,7 +54,7 @@ Logic nghiệp vụ được xây dựng trên kiến trúc serverless sử dụ
 #### Amazon API Gateway (REST)
 Nhận mọi yêu cầu từ frontend, hỗ trợ đầy đủ CORS. Sử dụng **Cognito JWT Authorizer** để xác thực token. Các endpoint công khai (xem sản phẩm, đăng ký, đặt hàng) không yêu cầu xác thực; các endpoint của admin yêu cầu JWT hợp lệ của nhóm admin.
 
-#### AWS Lambda — 16 Hàm Nghiệp Vụ
+#### AWS Lambda — 19 Hàm Nghiệp Vụ
 
 | Nhóm | Số lượng | Mục đích |
 |---|---|---|
@@ -122,7 +123,7 @@ Nhận mọi yêu cầu từ frontend, hỗ trợ đầy đủ CORS. Sử dụng
 
 Trong giai đoạn đầu tìm hiểu, các dịch vụ có thể được cấu hình thủ công qua AWS Console. Tuy nhiên, khi xây dựng hệ thống thực tế (production) với hàng chục hàm Lambda và các dịch vụ đan xen, dự án áp dụng **AWS SAM** vì những lý do sau:
 
-* **Tự động hóa & Tránh sai sót:** Toàn bộ hạ tầng (16 hàm Lambda, API Gateway, DynamoDB) được định nghĩa bằng mã nguồn trong file `template.yaml`. Chỉ cần một lệnh `sam deploy` là hệ thống được triển khai chính xác 100%, tránh được các rủi ro do thao tác thủ công hoặc quên cấp quyền IAM (Least Privilege).
+* **Tự động hóa & Tránh sai sót:** Toàn bộ hạ tầng (19 hàm Lambda, API Gateway, DynamoDB) được định nghĩa bằng mã nguồn trong file `template.yaml`. Chỉ cần một lệnh `sam deploy` là hệ thống được triển khai chính xác 100%, tránh được các rủi ro do thao tác thủ công hoặc quên cấp quyền IAM (Least Privilege).
 * **Kiểm thử cục bộ (Local Testing):** Nhờ lệnh `sam local invoke`, lập trình viên có thể giả lập môi trường AWS bằng Docker để kiểm thử code ngay trên máy tính cá nhân trước khi đưa lên Cloud, giúp tiết kiệm thời gian và chi phí.
 * **Quản lý chi phí minh bạch:** AWS SAM tự động gắn các "Thẻ" (Tags) (ví dụ: `Project: HMN-Bakery`) cho toàn bộ các tài nguyên. Trên bảng điều khiển AWS Cost Explorer, quản trị viên chỉ cần lọc theo thẻ này để xem chính xác hệ thống Backend đang tiêu tốn bao nhiêu tiền đến từng xu, giúp việc giám sát chi phí trở nên vô cùng dễ dàng và trực quan.
 

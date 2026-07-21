@@ -19,6 +19,7 @@ Dưới đây là bảng định tuyến cho các API trong hệ thống:
 |---|---|---|---|---|
 | **Auth** | POST | `/auth/register` | Công khai | Đăng ký tài khoản + gửi OTP |
 | **Auth** | POST | `/auth/verify-otp` | Công khai | Xác minh mã OTP |
+| **Auth** | POST | `/auth/resend-otp` | Công khai | Gửi lại mã OTP |
 | **Auth** | POST | `/auth/login` | Công khai | Đăng nhập và nhận token JWT |
 | **Auth** | POST | `/auth/forgot-password` | Công khai | Gửi mã khôi phục mật khẩu |
 | **Auth** | POST | `/auth/reset-password` | Công khai | Đặt mật khẩu mới |
@@ -28,6 +29,7 @@ Dưới đây là bảng định tuyến cho các API trong hệ thống:
 | **Product** | PUT | `/products/{id}` | **Admin** | Chỉnh sửa thông tin sản phẩm |
 | **Product** | DELETE | `/products/{id}` | **Admin** | Xóa một sản phẩm |
 | **Order** | POST | `/orders` | Công khai | Đặt hàng (kích hoạt SNS + SES) |
+| **Order** | GET | `/orders/my` | **User** | Xem lịch sử đơn hàng của bản thân |
 | **Order** | GET | `/orders` | **Admin** | Xem toàn bộ danh sách đơn hàng |
 | **Order** | PUT | `/orders/{id}/status` | **Admin** | Cập nhật trạng thái đơn hàng |
 | **User** | GET | `/users` | **Admin** | Lấy danh sách người dùng từ Cognito |

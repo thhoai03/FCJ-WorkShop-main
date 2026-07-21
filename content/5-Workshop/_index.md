@@ -15,10 +15,8 @@ Welcome to the workshop documentation for deploying the **HMN Bakery — Online 
 > * **Password:** `123abcd`
 
 ### Activity Demo Video
-<video width="100%" controls>
-  <source src="../videos/DemoNhomHMN.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<!-- Please upload your DemoNhomHMN.mp4 video to YouTube (Unlisted) and replace the YOUR_YOUTUBE_VIDEO_ID below with the actual Video ID -->
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 In this workshop, we will go step-by-step to deploy the entire Serverless Backend system using AWS SAM (Serverless Application Model), set up initial data, and connect it with the ReactJS Frontend.
 

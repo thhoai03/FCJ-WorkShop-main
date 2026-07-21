@@ -1,5 +1,5 @@
 ---
-title: "Tuần 10 -  Triển khai mã nguồn Backend không máy chủ và tích hợp các dịch vụ thông qua AWS SDK"
+title: "Tuần 10 - Phát triển Frontend: React 19, S3, CloudFront, WAF & Route 53"
 date: 2026-06-29
 weight: 10
 chapter: false

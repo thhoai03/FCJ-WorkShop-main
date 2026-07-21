@@ -4,7 +4,8 @@ date: 2026-05-26
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
----### Week 6 Objectives:
+---
+### Week 6 Objectives:
 
 * Set up a centralized logging tool to monitor system health and build a real-time order notification channel.
 

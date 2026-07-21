@@ -1,43 +1,41 @@
----
+﻿---
 title: "Workshop"
 date: 2026-07-21
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
-# Hướng dẫn triển khai HMN Bakery
+# HÆ°á»›ng dáº«n triá»ƒn khai HMN Bakery
 
-Chào mừng bạn đến với tài liệu hướng dẫn workshop triển khai dự án **HMN Bakery — Website Đặt Bánh Trực Tuyến**.
+ChĂ o má»«ng báº¡n Ä‘áº¿n vá»›i tĂ i liá»‡u hÆ°á»›ng dáº«n workshop triá»ƒn khai dá»± Ă¡n **HMN Bakery â€” Website Äáº·t BĂ¡nh Trá»±c Tuyáº¿n**.
 
-> 🚀 **Demo Trực tiếp:** [https://d1babxppbit8as.cloudfront.net/](https://d1babxppbit8as.cloudfront.net/)
+> đŸ€ **Demo Trá»±c tiáº¿p:** [https://d1babxppbit8as.cloudfront.net/](https://d1babxppbit8as.cloudfront.net/)
 > 
-> 🔑 **Tài khoản Kiểm thử Admin:** 
+> đŸ”‘ **TĂ i khoáº£n Kiá»ƒm thá»­ Admin:** 
 > * **Email:** `hoaik4d5@gmail.com`
-> * **Mật khẩu:** `123abcd`
+> * **Máº­t kháº©u:** `123abcd`
 
-### Video Hoạt động Demo
-<video width="100%" controls>
-  <source src="../videos/DemoNhomHMN.mp4" type="video/mp4">
-  Trình duyệt của bạn không hỗ trợ thẻ video.
-</video>
+### Video Hoáº¡t Ä‘á»™ng Demo
+<!-- Vui lòng tải video DemoNhomHMN.mp4 của bạn lên YouTube (Chế độ Không công khai) và thay thế YOUR_YOUTUBE_VIDEO_ID bên dưới bằng ID video thực tế -->
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Trong workshop này, chúng ta sẽ đi từng bước để triển khai toàn bộ hệ thống Serverless Backend bằng AWS SAM (Serverless Application Model), thiết lập dữ liệu ban đầu và kết nối với Frontend ReactJS.
+Trong workshop nĂ y, chĂºng ta sáº½ Ä‘i tá»«ng bÆ°á»›c Ä‘á»ƒ triá»ƒn khai toĂ n bá»™ há»‡ thá»‘ng Serverless Backend báº±ng AWS SAM (Serverless Application Model), thiáº¿t láº­p dá»¯ liá»‡u ban Ä‘áº§u vĂ  káº¿t ná»‘i vá»›i Frontend ReactJS.
 
-Cốt lõi hệ thống sử dụng các dịch vụ AWS bao gồm:
+Cá»‘t lĂµi há»‡ thá»‘ng sá»­ dá»¥ng cĂ¡c dá»‹ch vá»¥ AWS bao gá»“m:
 * **Amazon API Gateway** (REST API)
 * **AWS Lambda** (Node.js Compute)
 * **Amazon DynamoDB** (NoSQL Database)
-* **Amazon Cognito** (Xác thực)
-* **Amazon S3** (Lưu trữ & Frontend Hosting)
-* **Amazon SNS / SES** (Thông báo & Email)
+* **Amazon Cognito** (XĂ¡c thá»±c)
+* **Amazon S3** (LÆ°u trá»¯ & Frontend Hosting)
+* **Amazon SNS / SES** (ThĂ´ng bĂ¡o & Email)
 
 ---
 
-### Nội dung Thực hành:
+### Ná»™i dung Thá»±c hĂ nh:
 
-1. **[Tổng quan Kiến trúc & API](5.1-Overview/)**: Hiểu về hệ thống và các điểm cuối API.
-2. **[Yêu cầu Tiền quyết](5.2-Prerequisite/)**: Chuẩn bị môi trường (AWS CLI, SAM CLI, Node.js).
-3. **[Triển khai Backend với SAM](5.3-Deploy/)**: Triển khai cơ sở hạ tầng lên AWS bằng một câu lệnh duy nhất.
-4. **[Cấu hình Sau triển khai](5.4-PostDeploy/)**: Tải dữ liệu ban đầu và tạo tài khoản Admin.
-5. **[Kết nối Frontend React](5.5-Frontend/)**: Cấu hình môi trường Frontend để kết nối với Backend.
-6. **[Dọn dẹp Tài nguyên](5.6-Cleanup/)**: Xóa hệ thống để tránh phát sinh chi phí khi không sử dụng.
+1. **[Tá»•ng quan Kiáº¿n trĂºc & API](5.1-Overview/)**: Hiá»ƒu vá» há»‡ thá»‘ng vĂ  cĂ¡c Ä‘iá»ƒm cuá»‘i API.
+2. **[YĂªu cáº§u Tiá»n quyáº¿t](5.2-Prerequisite/)**: Chuáº©n bá»‹ mĂ´i trÆ°á»ng (AWS CLI, SAM CLI, Node.js).
+3. **[Triá»ƒn khai Backend vá»›i SAM](5.3-Deploy/)**: Triá»ƒn khai cÆ¡ sá»Ÿ háº¡ táº§ng lĂªn AWS báº±ng má»™t cĂ¢u lá»‡nh duy nháº¥t.
+4. **[Cáº¥u hĂ¬nh Sau triá»ƒn khai](5.4-PostDeploy/)**: Táº£i dá»¯ liá»‡u ban Ä‘áº§u vĂ  táº¡o tĂ i khoáº£n Admin.
+5. **[Káº¿t ná»‘i Frontend React](5.5-Frontend/)**: Cáº¥u hĂ¬nh mĂ´i trÆ°á»ng Frontend Ä‘á»ƒ káº¿t ná»‘i vá»›i Backend.
+6. **[Dá»n dáº¹p TĂ i nguyĂªn](5.6-Cleanup/)**: XĂ³a há»‡ thá»‘ng Ä‘á»ƒ trĂ¡nh phĂ¡t sinh chi phĂ­ khi khĂ´ng sá»­ dá»¥ng.

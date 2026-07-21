@@ -4,7 +4,8 @@ date: 2026-05-30
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
----# Event 1: Sharing & Reflection Meeting on AWS Internship Program
+---
+# Event 1: Sharing & Reflection Meeting on AWS Internship Program
 
 ### General Information
 

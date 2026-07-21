@@ -4,7 +4,8 @@ date: 2026-07-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
----### [Blog 1 - Operational Automation with Event-Driven and AWS Security Hub]({{< ref "3.1-Blog1" >}})
+---
+### [Blog 1 - Operational Automation with Event-Driven and AWS Security Hub]({{< ref "3.1-Blog1" >}})
 This article introduces the Event-Driven architecture that helps systems automatically detect and resolve incidents without manual engineer intervention. It demonstrates how to combine Amazon SNS, AWS WAF, AWS Security Hub, and Amazon EventBridge to automatically block attacking IPs within seconds.
 
 ### [Blog 2 - Serverless Backend – Handling Variable Traffic Without Server Management]({{< ref "3.2-Blog2" >}})

@@ -4,7 +4,8 @@ date: 2026-05-04
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
----# HMN Bakery — Online Cake Ordering Website
+---
+# HMN Bakery — Online Cake Ordering Website
 
 ## Comprehensive AWS Serverless Solution for Smart Cake Ordering System
 
@@ -53,7 +54,7 @@ The business logic is built on a serverless architecture using **AWS SAM** with 
 #### Amazon API Gateway (REST)
 Receives all requests from the frontend, fully supporting CORS. Uses **Cognito JWT Authorizer** to authenticate tokens. Public endpoints (view products, register, place order) do not require authentication; admin endpoints require a valid admin group JWT.
 
-#### AWS Lambda — 16 Business Functions
+#### AWS Lambda — 19 Business Functions
 
 | Group | Functions | Purpose |
 |---|---|---|

@@ -4,7 +4,8 @@ date: 2026-06-01
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
----### Week 7 Objectives:
+---
+### Week 7 Objectives:
 
 * Understand in detail the data flow from the user interface and set up a standard library for drawing the system architecture diagram.
 

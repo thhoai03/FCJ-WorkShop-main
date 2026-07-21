@@ -1,10 +1,11 @@
 ---
-title: "Week 11 - Deploying the System onto AWS Infrastructure, Configuring IAM Role Security, and End-to-End Testing"
+title: "Week 11 - Backend Implementation: Serverless Architecture with AWS SAM"
 date: 2026-07-06
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
----### Week 11 Objectives:
+---
+### Week 11 Objectives:
 
 * **Important Note:** From Week 1 to Week 10, the team *practiced* and explored individual services on the AWS Console. Starting from Week 11, the team officially **built the actual Backend for the project** and fully automated the deployment using **AWS SAM (Serverless Application Model)**.
 * Realize the encrypted NoSQL data layer (DynamoDB + KMS + Image S3) and program, deploy 16 Lambda functions processing business logic to the serverless cloud via AWS SAM.

@@ -41,10 +41,7 @@ According to the system design, features like adding/editing/deleting products, 
 2. **Grant Admin permissions:** Once you have an account (e.g., your email is `admin@domain.com`), assign that account to the `admin` group using the following AWS CLI command:
 
    ```bash
-   aws cognito-idp admin-add-user-to-group\
-     --user-pool-id <UserPoolId> \
-     --username <your-admin-email> \
-     --group-name admin
+   aws cognito-idp admin-add-user-to-group --user-pool-id <UserPoolId> --username <your-admin-email> --group-name admin
    ```
    *(Replace `<UserPoolId>` with the value obtained in the Outputs screen after deployment).*
 

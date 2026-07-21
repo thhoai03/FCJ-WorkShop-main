@@ -4,7 +4,8 @@ date: 2026-05-05
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
----### Week 3 Objectives:
+---
+### Week 3 Objectives:
 
 * Increase website interface loading speed and set up a firewall to prevent cyber attacks at the application layer.
 

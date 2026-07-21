@@ -4,7 +4,8 @@ date: 2026-07-12
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
----### Week 12 Objectives:
+---
+### Week 12 Objectives:
 
 * Comprehensively connect API Gateway (with Cognito JWT Authorizer) with the 16 Lambda functions and the Frontend, complete the notification layer (SNS/SES) and monitoring (CloudWatch/CloudTrail), perform End-to-End testing, and package the project for acceptance.
 

@@ -1,5 +1,5 @@
 ---
-title: "Tuần 9 - Thiết kế kiến ​​trúc dự án FinVantage, cấu hình cảnh báo Amazon SNS và CloudWatch."
+title: "Tuần 9 - Thiết kế kiến ​​trúc dự án HMN Bakery, cấu hình cảnh báo Amazon SNS và CloudWatch."
 date: 2026-06-22
 weight: 9
 chapter: false
