@@ -43,7 +43,17 @@ Node.js is the required runtime environment for running Lambda code (Node.js 20)
   npm -v
   ```
 
-### 4. Source Code Directory Structure
+### 4. Download Source Code
+
+Before proceeding, clone the project's source code (including both Frontend and Backend) to your local machine from the following GitHub repository:
+
+* **GitHub Repository:** [https://github.com/thhoai03/HMN---bakery](https://github.com/thhoai03/HMN---bakery)
+* **Clone command:**
+  ```bash
+  git clone https://github.com/thhoai03/HMN---bakery.git
+  ```
+
+### 5. Source Code Directory Structure
 
 After downloading the project source code, make sure you have the following directory structure:
 

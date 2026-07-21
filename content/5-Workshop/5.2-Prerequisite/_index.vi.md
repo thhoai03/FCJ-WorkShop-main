@@ -43,7 +43,17 @@ Node.js là môi trường runtime bắt buộc để chạy mã Lambda (Node.js
   npm -v
   ```
 
-### 4. Cấu trúc Thư mục Mã nguồn
+### 4. Tải Mã Nguồn
+
+Trước khi bắt đầu, hãy clone (tải) toàn bộ mã nguồn của dự án (bao gồm cả Frontend và Backend) về máy tính của bạn từ kho lưu trữ GitHub sau:
+
+* **Kho lưu trữ GitHub:** [https://github.com/thhoai03/HMN---bakery](https://github.com/thhoai03/HMN---bakery)
+* **Lệnh clone:**
+  ```bash
+  git clone https://github.com/thhoai03/HMN---bakery.git
+  ```
+
+### 5. Cấu trúc Thư mục Mã nguồn
 
 Sau khi tải mã nguồn dự án, hãy đảm bảo bạn có cấu trúc thư mục như sau:
 
