@@ -54,6 +54,6 @@ The second event took place in June and was an extremely exciting and vibrant me
 
 The experience of participating in the competition helped me realize the knowledge gaps that need to be filled, and at the same time, I learned a lot from the problem-solving mindset of other teams. The time pressure in the competition was also a good exercise for me to practice calmness and quick decision-making skills. This is a memorable experience, giving me more confidence when applying AWS knowledge to real projects.
 
-![Event 2](event2.JPG)
 
-![Event 2](event2.jpg)
+
+![Event 2](/images/4-EventParticipated/event2.jpg)
