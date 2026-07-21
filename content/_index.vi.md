@@ -24,7 +24,7 @@ chương: sai
 
 &emsp; **Thời gian thực tập:** Từ ngày 20 tháng 4 năm 2026 đến ngày 30 tháng 7 năm 2026
 
-<img src="/images/avatar.png" width="300" alt="Ảnh hồ sơ của bạn">
+<img src="images/avatar.png" width="300" alt="Ảnh hồ sơ của bạn">
 
 ### Nội dung báo cáo
 

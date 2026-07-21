@@ -17,7 +17,7 @@ Chào mừng bạn đến với tài liệu hướng dẫn workshop triển khai
 
 ### Video Hoạt động Demo
 <video width="100%" controls>
-  <source src="/videos/DemoNhomHMN.mp4" type="video/mp4">
+  <source src="../videos/DemoNhomHMN.mp4" type="video/mp4">
   Trình duyệt của bạn không hỗ trợ thẻ video.
 </video>
 
